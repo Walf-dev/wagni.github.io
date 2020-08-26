@@ -74,7 +74,7 @@ const Header = props => {
     React.createElement("div", { className: "silhouette" }),
     React.createElement("div", { className: "moon" }),
     React.createElement("div", { className: "container" },
-    React.createElement("h1", null,
+    React.createElement("h3", null,
     React.createElement("span", { className: "line" }, "I build Web apps"), React.createElement("br", null),
     React.createElement("span", { className: "line" },
     React.createElement("span", { className: "color" }, "&"), " create Web design as a"),
@@ -413,7 +413,7 @@ const Contact = props => {
     React.createElement("p", { className: "separator" }),
     React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to",
 
-    React.createElement("a", { href: "starkwagni@gmail.com" }, React.createElement("i", { className: "email" }, " starkwagni@gmail.com")))),
+    React.createElement("a", { href: "mailto:starkwagni@gmail.com" }, React.createElement("i", { className: "email" }, " starkwagni@gmail.com")))),
 
 
     React.createElement(SocialLinks, null)),
