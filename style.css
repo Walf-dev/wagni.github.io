@@ -630,8 +630,8 @@ a:active {
   top: 0;
   right: 0;
   position: fixed;
-  background: url(https://user-images.githubusercontent.com/61193321/91282129-d4c91700-e780-11ea-96e3-8eb49bfa95ba.gif) right 150% no-repeat;
-  background-size: 20% 20%;
+  background: url(https://user-images.githubusercontent.com/61193321/91335527-6dcf5080-e7c8-11ea-8b64-933896f8758c.png) right 150% no-repeat;
+  background-size: contain;
   background-attachment: fixed;
   width: 100%;
   height: 100%;
@@ -700,7 +700,7 @@ a:active {
 }
 
 #welcome-section .container h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: normal;
   font-style: italic;
   color: #fafafa;
@@ -712,13 +712,13 @@ a:active {
 }
 
 #welcome-section .container h1 .line:last-child {
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 #welcome-section .container .buttons {
   display: -webkit-box;
   display: flex;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 #welcome-section .container .buttons a,
@@ -759,7 +759,6 @@ a:active {
 }
 
 .line {
-  display: -webkit-box;
   display: flex;
 }
 
@@ -778,6 +777,10 @@ a:active {
     -webkit-animation: text-fade-in 1000ms 800ms forwards;
             animation: text-fade-in 1000ms 800ms forwards;
   }
+  
+  #welcome-section .container h1 {
+  font-size:27px;
+}
 
   @-webkit-keyframes text-fade-in {
     from {
@@ -803,16 +806,6 @@ a:active {
     width: 100%;
   }
 }
-
-@media only screen and (max-width: 600px) {
-    #welcome-section {
-  display:-webkit-box;
-  display:flex; 
-}  
-    #welcome-section .container h1 {
-  font-size: 30px; 
-}  
-  }
 
 
 

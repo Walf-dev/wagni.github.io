@@ -74,11 +74,10 @@ const Header = props => {
     React.createElement("div", { className: "silhouette" }),
     React.createElement("div", { className: "moon" }),
     React.createElement("div", { className: "container" },
-    React.createElement("h3", null,
-    React.createElement("span", { className: "line" }, "I build Web apps"), React.createElement("br", null),
+    React.createElement("h1", null,
+    React.createElement("span", { className: "line" }, "I build Web apps"),
     React.createElement("span", { className: "line" },
     React.createElement("span", { className: "color" }, "&"), " create Web design as a"),
-    React.createElement("br", null),
     React.createElement("span", { className: "line" },
     React.createElement("span", { className: "color" }, "Fullstack Web developer"))),
 
