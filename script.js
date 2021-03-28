@@ -520,8 +520,8 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement(Menu, { toggleMenu: this.toggleMenu, showMenu: this.state.menuState }),
       React.createElement(Nav, { toggleMenu: this.toggleMenu, showMenu: this.state.menuState }),
       React.createElement(Header, null),
-      React.createElement(Projects, null),
       React.createElement(About, null),
+      React.createElement(Projects, null),
       React.createElement(Contact, null),
       React.createElement(Footer, null)));
 
