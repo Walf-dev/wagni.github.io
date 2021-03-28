@@ -215,16 +215,16 @@ const Projects = props => {
 
     React.createElement("div", { className: "projects-wrapper" },
     React.createElement(Project, {
-      title: "Exercise Tracker.",
+      title: "Borrador Products Landing Page",
       img: 'https://user-images.githubusercontent.com/61193321/112748800-3753f100-8fb6-11eb-97d7-6a69c72268f7.png',
       tech: "js css node",
-      link: "https://fwagni-exercise-tracker.glitch.me/",
-      repo: "https://github.com/Walf-dev/APIs-and-Microservices-Projects---Exercise-Tracker" },
+      link: "https://borrador-cosmetiques.herokuapp.com/",
+      repo: "https://github.com/Walf-dev/borrador-cosmetiques" },
 
-    React.createElement("small", null, "Built using Node, Express, Javascript, MongoDB, CSS + Bootstrap."),
+    React.createElement("small", null, "Built using Node, Express, Javascript, Jquery, Html, CSS + Bootstrap."),
 
 
-    React.createElement("p", null, "A service which lets the users save their daily exercise (or anything) into a log for them to check it later.")),
+    React.createElement("p", null, "A landing page for a cosmetic startup.")),
 
 
 
