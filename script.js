@@ -204,7 +204,7 @@ const Projects = props => {
     React.createElement("div", { className: "heading" },
     React.createElement("h3", { className: "title" }, "Some of my Projects"),
     React.createElement("p", { className: "separator" }),
-),
+    ),
 
 
 
