@@ -222,10 +222,19 @@ const Projects = props => {
       repo: "https://github.com/Walf-dev/borrador-cosmetiques" },
 
     React.createElement("small", null, "Built using Node, Express, Javascript, Jquery, Html, CSS + Bootstrap."),
-
-
     React.createElement("p", null, "A landing page for a cosmetic startup.")),
 
+
+    React.createElement(Project, {
+      title: "React ToDo App",
+      img: 'https://user-images.githubusercontent.com/61193321/112749786-91f04b80-8fbc-11eb-8c85-ca043ae81da9.png',
+      tech: "js react node css",
+      link: "https://walf-dev-react-todo-app.herokuapp.com/",
+      repo:"https://github.com/Walf-dev/react-todo-app"
+     },
+
+    React.createElement("small", null, "Built using Node, Express, React, CSS."),
+    React.createElement("p", null, "This is a productivity app to manage your tasks.")),
 
 
     React.createElement(Project, {
@@ -363,17 +372,6 @@ const Projects = props => {
 
     React.createElement("small", null, "Built using React and Sass."),
     React.createElement("p", null, "A drum machine app which retrieves samples from an API.")),
-
-
-
-    React.createElement(Project, {
-      title: "Product landing Page Example.",
-      img: 'https://user-images.githubusercontent.com/61193321/90807404-5995da00-e316-11ea-8050-22178a255b1b.jpg',
-      tech: "css",
-      link: "https://codepen.io/Wagni/full/ExjxOYR" },
-
-    React.createElement("small", null, "Built using Html Javascript and Css."),
-    React.createElement("p", null, "A landing page for Flixbus transportation company.")),
 
 
 
