@@ -237,6 +237,18 @@ const Projects = props => {
     React.createElement("p", null, "This is a productivity app to manage your tasks.")),
 
 
+
+    React.createElement(Project, {
+      title: "Drum machine.",
+      img: 'https://user-images.githubusercontent.com/61193321/90807842-feb0b280-e316-11ea-8a3a-a8cfeed6d7e4.jpg',
+      tech: "js react css",
+      link: "https://codepen.io/Wagni/full/eYpeNep" },
+
+    React.createElement("small", null, "Built using React and Sass."),
+    React.createElement("p", null, "A drum machine app which retrieves samples from an API.")),
+
+
+
     React.createElement(Project, {
       title: "American/British translator.",
       img: 'https://user-images.githubusercontent.com/61193321/90804074-9dd2ab80-e311-11ea-9b86-e82373ec6c43.jpg',
@@ -363,16 +375,6 @@ const Projects = props => {
 
     React.createElement("small", null, "Built using React and CSS."),
     React.createElement("p", null, "A cute and animated Pomodoro clock to help the users improve their productivity.")),
-
-    React.createElement(Project, {
-      title: "Drum machine.",
-      img: 'https://user-images.githubusercontent.com/61193321/90807842-feb0b280-e316-11ea-8a3a-a8cfeed6d7e4.jpg',
-      tech: "js react css",
-      link: "https://codepen.io/Wagni/full/eYpeNep" },
-
-    React.createElement("small", null, "Built using React and Sass."),
-    React.createElement("p", null, "A drum machine app which retrieves samples from an API.")),
-
 
 
     React.createElement(Project, {
