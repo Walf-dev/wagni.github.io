@@ -203,12 +203,7 @@ const Projects = props => {
     React.createElement("div", { className: "projects-container" },
     React.createElement("div", { className: "heading" },
     React.createElement("h3", { className: "title" }, "Some of my Projects"),
-    React.createElement("p", { className: "separator" }),
-    React.createElement("p", { className: "subtitle" }, "Here's a list of ",
-    React.createElement("u", null, "most"), " of the projects I've been working on lately. All of these were built during my coding camp adventure on",
-    ' ',
-    React.createElement("a", { href: "https://www.freecodecamp.org/codeapprentice", target: "_blank", rel: "noopener noreferrer" }, "freeCodeCamp"), ", where I've been coding for almost 7 months non-stop until I completed all the projects required to get my Full-Stack Developer certification.")),
-
+),
 
 
 
@@ -524,8 +519,8 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement(Menu, { toggleMenu: this.toggleMenu, showMenu: this.state.menuState }),
       React.createElement(Nav, { toggleMenu: this.toggleMenu, showMenu: this.state.menuState }),
       React.createElement(Header, null),
-      React.createElement(About, null),
       React.createElement(Projects, null),
+      React.createElement(About, null),
       React.createElement(Contact, null),
       React.createElement(Footer, null)));
 
