@@ -825,11 +825,11 @@ a:active {
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
-  background: #fafafa;
   -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
           clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #1a75ff url(https://user-images.githubusercontent.com/61193321/90830733-25ccab80-e33a-11ea-9d9f-fc7d90fa3cd9.png) center right no-repeat;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(148,227,233,1) 89%);  
   background-attachment: fixed;
 }
 
