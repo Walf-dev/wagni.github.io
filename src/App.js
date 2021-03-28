@@ -188,7 +188,7 @@ const Project = props => {
             View source <i className="fas fa-external-link-alt" />
           </a>
           <a href={link} target="_blank" rel="noopener noreferrer">
-            Try it Live <i className="fas fa-external-link-alt" />
+            Try it Liv <i className="fas fa-external-link-alt" />
           </a>
         </div>
       </div>
