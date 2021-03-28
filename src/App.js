@@ -221,7 +221,7 @@ const Projects = props => {
         <div className="projects-wrapper">
           <Project
             title="Exercise Tracker."
-            img={'https://user-images.githubusercontent.com/61193321/90808190-8696bc80-e317-11ea-83ac-620b96b6515d.jpg'}
+            img={'https://user-images.githubusercontent.com/61193321/112748800-3753f100-8fb6-11eb-97d7-6a69c72268f7.png'}
             tech="js css node"
             link="https://fwagni-exercise-tracker.glitch.me/"
             repo="https://github.com/Walf-dev/APIs-and-Microservices-Projects---Exercise-Tracker"
