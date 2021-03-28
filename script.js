@@ -215,7 +215,7 @@ const Projects = props => {
 
     React.createElement("div", { className: "projects-wrapper" },
     React.createElement(Project, {
-      title: "Exercise Tracker.",
+      title: "Exercise Tracke.",
       img: 'https://user-images.githubusercontent.com/61193321/90808190-8696bc80-e317-11ea-83ac-620b96b6515d.jpg',
       tech: "js css node",
       link: "https://fwagni-exercise-tracker.glitch.me/",
