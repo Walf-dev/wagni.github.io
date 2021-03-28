@@ -829,7 +829,7 @@ a:active {
           clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
   background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(148,227,233,1) 89%);  
+  background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(148,227,233,1) 89%) center right no-repeat;  
   background-attachment: fixed;
 }
 
