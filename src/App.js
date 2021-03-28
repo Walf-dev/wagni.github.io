@@ -220,19 +220,34 @@ const Projects = props => {
         </div>
         <div className="projects-wrapper">
           <Project
-            title="Exercise Tracker."
+            title="Borrador Products Landing Page"
             img={'https://user-images.githubusercontent.com/61193321/112748800-3753f100-8fb6-11eb-97d7-6a69c72268f7.png'}
             tech="js css node"
-            link="https://fwagni-exercise-tracker.glitch.me/"
-            repo="https://github.com/Walf-dev/APIs-and-Microservices-Projects---Exercise-Tracker"
+            link="https://borrador-cosmetiques.herokuapp.com/"
+            repo="https://github.com/Walf-dev/borrador-cosmetiques"
           >
             <small>
-              Built using Node, Express, Javascript, MongoDB, CSS + Bootstrap.
+              Built using Node, Express, Javascript, Jquery, Html, CSS + Bootstrap.
             </small>
             <p>
-             A service which lets the users save their daily exercise (or anything) into a log for them to check it later.
+             A landing page for a cosmetic startup.
             </p>
           </Project>
+          <Project
+            title="React ToDo App"
+            img={'https://user-images.githubusercontent.com/61193321/112749786-91f04b80-8fbc-11eb-8c85-ca043ae81da9.png'}
+            tech="js react node css"
+            link="https://walf-dev-react-todo-app.herokuapp.com/"
+            repo="https://github.com/Walf-dev/react-todo-app"
+          >
+            <small>
+             Built using Node, Express, React, CSS.
+            </small>
+            <p>
+             This is a productivity app to manage your tasks.
+            </p>
+          </Project>
+
           <Project
             title="American/British translator."
             img={'https://user-images.githubusercontent.com/61193321/90804074-9dd2ab80-e311-11ea-9b86-e82373ec6c43.jpg'}
@@ -372,23 +387,12 @@ const Projects = props => {
             </p>
           </Project>
           <Project
-            title="Product landing Page Example."
-            img={'https://user-images.githubusercontent.com/61193321/90807404-5995da00-e316-11ea-8050-22178a255b1b.jpg'}
-            tech="css"
-            link="https://codepen.io/Wagni/full/ExjxOYR"
-          >
-            <small>Built using Html Javascript and Css.</small>
-            <p>
-             A landing page for Flixbus transportation company.
-            </p>
-          </Project>
-          <Project
             title="Technical Documentation Page."
             img={'https://user-images.githubusercontent.com/61193321/90807545-8a760f00-e316-11ea-8344-ee17074ede6f.jpg'}
             tech="js css"
             link="https://codepen.io/Wagni/full/QWbyjKL"
           >
-            <small>Built using React and CSS.</small>
+            <small>Built using Html and CSS.</small>
             <p>A technical documentation page made for electrical generators.</p>
           </Project>
      
